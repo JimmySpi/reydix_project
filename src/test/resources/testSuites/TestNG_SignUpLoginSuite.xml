@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SignUpLoginSuite">
+    <test name="SignUpLoginSuite_rDevice_android10">
+        <parameter name="device" value="realDevice_android10"/>
+        <classes>
+            <class name="Tests.Sign_Up_Login_Tests"/>
+        </classes>
+    </test>
+<!--    <test name="SignUpLoginSuite_emulator_android14">-->
+<!--        <parameter name="device" value="emulator_android14"/>-->
+<!--        <classes>-->
+<!--            <class name="Tests.Sign_Up_Login_Tests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
